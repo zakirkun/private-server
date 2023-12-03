@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Xeana\Desktop\my release debug\PointBlank.Core.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42D6A192-96A7-4BE3-9A7B-C31E48B2D73D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PointBlank.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>0.0.0.1</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PointBlank.Core</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\ALLDebug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Npgsql">
+      <HintPath>..\dlls\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="ConfigFile.cs" />
+    <Compile Include="Filters\NickFilter.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Managers\BanManager.cs" />
+    <Compile Include="Managers\CharacterManager.cs" />
+    <Compile Include="Managers\CouponEffectManager.cs" />
+    <Compile Include="Managers\Events\EventLoader.cs" />
+    <Compile Include="Managers\Events\EventLoginSyncer.cs" />
+    <Compile Include="Managers\Events\EventMapSyncer.cs" />
+    <Compile Include="Managers\Events\EventPlayTimeSyncer.cs" />
+    <Compile Include="Managers\Events\EventQuestSyncer.cs" />
+    <Compile Include="Managers\Events\EventRankUpSyncer.cs" />
+    <Compile Include="Managers\Events\EventVisitSyncer.cs" />
+    <Compile Include="Managers\Events\EventXmasSyncer.cs" />
+    <Compile Include="Managers\ICafeManager.cs" />
+    <Compile Include="Managers\MessageManager.cs" />
+    <Compile Include="Managers\MissionManager.cs" />
+    <Compile Include="Managers\PlayerManager.cs" />
+    <Compile Include="Managers\Server\ServerConfigSyncer.cs" />
+    <Compile Include="Managers\ShopManager.cs" />
+    <Compile Include="Managers\TicketManager.cs" />
+    <Compile Include="Managers\TitleManager.cs" />
+    <Compile Include="Models\Account\AccountStatus.cs" />
+    <Compile Include="Models\Account\Clan\Clan.cs" />
+    <Compile Include="Models\Account\Clan\ClanBestPlayers.cs" />
+    <Compile Include="Models\Account\Clan\ClanInvite.cs" />
+    <Compile Include="Models\Account\Friend.cs" />
+    <Compile Include="Models\Account\Message.cs" />
+    <Compile Include="Models\Account\Mission\CardAwards.cs" />
+    <Compile Include="Models\Account\Mission\MissionAwards.cs" />
+    <Compile Include="Models\Account\Mission\MissionItemAward.cs" />
+    <Compile Include="Models\Account\Players\Character.cs" />
+    <Compile Include="Models\Account\Players\FriendSystem.cs" />
+    <Compile Include="Models\Account\Players\ItemsModel.cs" />
+    <Compile Include="Models\Account\Players\PlayerBonus.cs" />
+    <Compile Include="Models\Account\Players\PlayerConfig.cs" />
+    <Compile Include="Models\Account\Players\PlayerDailyRecord.cs" />
+    <Compile Include="Models\Account\Players\PlayerEquipedItems.cs" />
+    <Compile Include="Models\Account\Players\PlayerEvent.cs" />
+    <Compile Include="Models\Account\Players\PlayerInfo.cs" />
+    <Compile Include="Models\Account\Players\PlayerInventory.cs" />
+    <Compile Include="Models\Account\Players\PlayerItemTopup.cs" />
+    <Compile Include="Models\Account\Players\PlayerMissions.cs" />
+    <Compile Include="Models\Account\Players\PlayerStats.cs" />
+    <Compile Include="Models\Account\Rank\RankModel.cs" />
+    <Compile Include="Models\Account\Title\PlayerTitles.cs" />
+    <Compile Include="Models\Account\Title\TitleA.cs" />
+    <Compile Include="Models\Account\Title\TitleQ.cs" />
+    <Compile Include="Models\Account\VisitBox.cs" />
+    <Compile Include="Models\Enums\AccessLevel.cs" />
+    <Compile Include="Models\Enums\CharaDeath.cs" />
+    <Compile Include="Models\Enums\CharaKillType.cs" />
+    <Compile Include="Models\Enums\ChattingType.cs" />
+    <Compile Include="Models\Enums\ClassType.cs" />
+    <Compile Include="Models\Enums\ClientLocale.cs" />
+    <Compile Include="Models\Enums\CountDownEnum.cs" />
+    <Compile Include="Models\Enums\CouponEffects.cs" />
+    <Compile Include="Models\Enums\DeadEnum.cs" />
+    <Compile Include="Models\Enums\EffectFlag.cs" />
+    <Compile Include="Models\Enums\EventErrorEnum.cs" />
+    <Compile Include="Models\Enums\FriendChangeState.cs" />
+    <Compile Include="Models\Enums\FriendState.cs" />
+    <Compile Include="Models\Enums\GameRuleFlag.cs" />
+    <Compile Include="Models\Enums\GameServerType.cs" />
+    <Compile Include="Models\Enums\HackType.cs" />
+    <Compile Include="Models\Enums\InventoryFlag.cs" />
+    <Compile Include="Models\Enums\ItemClass.cs" />
+    <Compile Include="Models\Enums\ItemTag.cs" />
+    <Compile Include="Models\Enums\KillingMessage.cs" />
+    <Compile Include="Models\Enums\MapIdEnum.cs" />
+    <Compile Include="Models\Enums\MatchState.cs" />
+    <Compile Include="Models\Enums\MissionType.cs" />
+    <Compile Include="Models\Enums\NoteMessageClan.cs" />
+    <Compile Include="Models\Enums\RequiType.cs" />
+    <Compile Include="Models\Enums\ResultIcon.cs" />
+    <Compile Include="Models\Enums\RoomStageFlag.cs" />
+    <Compile Include="Models\Enums\RoomState.cs" />
+    <Compile Include="Models\Enums\RoomType.cs" />
+    <Compile Include="Models\Enums\RoomWeaponsFlag.cs" />
+    <Compile Include="Models\Enums\RoundEndType.cs" />
+    <Compile Include="Models\Enums\SlotMatchState.cs" />
+    <Compile Include="Models\Enums\SlotState.cs" />
+    <Compile Include="Models\Enums\TeamResultType.cs" />
+    <Compile Include="Models\Enums\TicketType.cs" />
+    <Compile Include="Models\Enums\UdpState.cs" />
+    <Compile Include="Models\Enums\VoteKick.cs" />
+    <Compile Include="Models\Gift\TicketModel.cs" />
+    <Compile Include="Models\ICafe.cs" />
+    <Compile Include="Models\Map\MapMatch.cs" />
+    <Compile Include="Models\Map\MapModel.cs" />
+    <Compile Include="Models\Map\MapRule.cs" />
+    <Compile Include="Models\Randombox\RandomBoxItem.cs" />
+    <Compile Include="Models\Randombox\RandomBoxModel.cs" />
+    <Compile Include="Models\Room\Frag.cs" />
+    <Compile Include="Models\Room\FragInfos.cs" />
+    <Compile Include="Models\Room\GameRule.cs" />
+    <Compile Include="Models\Room\Slot.cs" />
+    <Compile Include="Models\Room\SlotChange.cs" />
+    <Compile Include="Models\Room\VoteKick.cs" />
+    <Compile Include="Models\Servers\GameServerModel.cs" />
+    <Compile Include="Models\Servers\QuickStart.cs" />
+    <Compile Include="Models\Shop\GoodItem.cs" />
+    <Compile Include="Models\Shop\ItemRepair.cs" />
+    <Compile Include="Network\BitSet.cs" />
+    <Compile Include="Network\ComDiv.cs" />
+    <Compile Include="Network\DBQuery.cs" />
+    <Compile Include="Network\IdFactory.cs" />
+    <Compile Include="Network\ObjectCopier.cs" />
+    <Compile Include="Network\ReceiveGPacket.cs" />
+    <Compile Include="Network\SafeList.cs" />
+    <Compile Include="Network\SendGPacket.cs" />
+    <Compile Include="Network\SendPacket.cs" />
+    <Compile Include="Network\StringUtil.cs" />
+    <Compile Include="Network\TimerState.cs" />
+    <Compile Include="Sql\SqlConnection.cs" />
+    <Compile Include="Translation.cs" />
+    <Compile Include="Xml\BasicInventoryXml.cs" />
+    <Compile Include="Xml\CafeInventoryXml.cs" />
+    <Compile Include="Xml\ClanRankXml.cs" />
+    <Compile Include="Xml\DirectXml.cs" />
+    <Compile Include="Xml\MapsXml.cs" />
+    <Compile Include="Xml\MissionAwardsXml.cs" />
+    <Compile Include="Xml\MissionCardXml.cs" />
+    <Compile Include="Xml\MissionsXml.cs" />
+    <Compile Include="Xml\QuickStartXml.cs" />
+    <Compile Include="Xml\RandomBoxXml.cs" />
+    <Compile Include="Xml\RankXml.cs" />
+    <Compile Include="Xml\ServersXml.cs" />
+    <Compile Include="Xml\TitleAwardsXml.cs" />
+    <Compile Include="Xml\TitlesXml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\dlls\Npgsql.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Xeana\Desktop\my release debug\PointBlank.Auth.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3551BCE4-DE61-4983-AC55-CCC4BC814230}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>PointBlank.Auth</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PointBlank.Auth</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\ALLDebug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Encryption">
+      <HintPath>..\dlls\Encryption.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\dlls\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="PointBlank.Core, Version=0.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ALLDebug\PointBlank.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auth.cs" />
+    <Compile Include="AuthClient.cs" />
+    <Compile Include="AuthManager.cs" />
+    <Compile Include="Data\Configs\AuthConfig.cs" />
+    <Compile Include="Data\Managers\AccountManager.cs" />
+    <Compile Include="Data\Managers\ClanManager.cs" />
+    <Compile Include="Data\Model\Account.cs" />
+    <Compile Include="Data\Model\Channel.cs" />
+    <Compile Include="Data\Sync\AuthSync.cs" />
+    <Compile Include="Data\Sync\Client\ClanSync.cs" />
+    <Compile Include="Data\Sync\Client\FriendSync.cs" />
+    <Compile Include="Data\Sync\Client\PlayerSync.cs" />
+    <Compile Include="Data\Sync\Client\ServerWarning.cs" />
+    <Compile Include="Data\Sync\Server\SendRefresh.cs" />
+    <Compile Include="Data\Sync\Update\ClanInfo.cs" />
+    <Compile Include="Data\Xml\ChannelsXml.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_GAMEGUARD_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_GET_INVEN_INFO_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_GET_MAP_INFO_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_GET_OPTION_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_GET_SYSTEM_INFO_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_GET_USER_INFO_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_LOGIN_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_LOGOUT_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_OPTION_SAVE_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_USER_GIFTLIST_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_BASE_USER_LEAVE_REQ.cs" />
+    <Compile Include="Network\ClientPacket\PROTOCOL_LOBBY_QUICKJOIN_ROOM_REQ.cs" />
+    <Compile Include="Network\ReceivePacket.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_AUTH_ACCOUNT_KICK_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_AUTH_FRIEND_INFO_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_AUTH_FRIEND_INFO_CHANGE_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_BOOSTEVENT_INFO_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_CHANNELTYPE_CONDITION_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_CONNECT_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_GAMEGUARD_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_GET_INVEN_INFO_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_GET_OPTION_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_GET_SYSTEM_INFO_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_GET_USER_INFO_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_LOGIN_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_LOGOUT_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_MAP_MATCHINGLIST_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_MAP_RULELIST_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_NOTICE_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_SERVER_LIST_REFRESH_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_STEPUP_MODE_INFO_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_URL_LIST_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_USER_GIFTLIST_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_BASE_USER_LEAVE_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_CS_MEMBER_INFO_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_CS_MEMBER_INFO_CHANGE_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_LOBBY_QUICKJOIN_ROOM_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_MESSENGER_NOTE_LIST_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_SERVER_MESSAGE_ANNOUNCE_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_SERVER_MESSAGE_DISCONNECTIONSUCCESS_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_SERVER_MESSAGE_ERROR_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_SERVER_MESSAGE_EVENT_QUEST_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_SERVER_MESSAGE_EVENT_RANKUP_ACK.cs" />
+    <Compile Include="Network\ServerPacket\PROTOCOL_SERVER_MESSAGE_ITEM_RECEIVE_ACK.cs" />
+    <Compile Include="Programm.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

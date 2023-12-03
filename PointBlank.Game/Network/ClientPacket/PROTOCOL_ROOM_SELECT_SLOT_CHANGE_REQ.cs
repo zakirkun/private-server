@@ -1,0 +1,62 @@
+﻿using PointBlank.Core;
+using PointBlank.Core.Models.Enums;
+using PointBlank.Core.Models.Room;
+using PointBlank.Game.Data.Model;
+using PointBlank.Game.Network.ServerPacket;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace PointBlank.Game.Network.ClientPacket
+{
+    public class PROTOCOL_ROOM_SELECT_SLOT_CHANGE_REQ : ReceivePacket
+    {
+        private int TeamIdx;
+
+        public PROTOCOL_ROOM_SELECT_SLOT_CHANGE_REQ(GameClient Client, byte[] Buffer)
+        {
+            makeme(Client, Buffer);
+        }
+
+        public override void read()
+        {
+            TeamIdx = readC();
+        }
+
+        public override void run()
+        {
+            try
+            {
+                Account player = _client._player;
+                Room room = player == null ? null : player._room;
+                if (room != null && !room.changingSlots)
+                {
+                    Slot slot = room.getSlot(player._slotId);
+                    if (slot != null && slot.state == SlotState.NORMAL)
+                    {
+                        Monitor.Enter(room._slots);
+                        room.changingSlots = true;
+                        List<SlotChange> changeList = new List<SlotChange>();
+                        room.SwitchNewSlot(changeList, player, slot, TeamIdx, true);
+                        if (changeList.Count > 0)
+                        {
+                            using (PROTOCOL_ROOM_TEAM_BALANCE_ACK packet = new PROTOCOL_ROOM_TEAM_BALANCE_ACK(changeList, room._leader, 0))
+                            {
+                                room.SendPacketToPlayers(packet);
+                            }
+                        }
+                        room.changingSlots = false;
+                        Monitor.Exit(room._slots);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                PacketLog(ex);//Logger.warning("PROTOCOL_ROOM_SELECT_SLOT_CHANGE_REQ: " + ex.ToString());
+            }
+        }
+    }
+}

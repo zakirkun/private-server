@@ -1,0 +1,75 @@
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\bin\Debug\PointBlank.Battle.exe
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\bin\Debug\PointBlank.Battle.pdb
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\bin\Debug\Npgsql.dll
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\bin\Debug\SharpDX.dll
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\bin\Debug\SharpDX.Mathematics.dll
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\bin\Debug\System.ValueTuple.dll
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Xeana\Desktop\SOURCE UP\my\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\bin\Debug\PointBlank.Battle.exe
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\bin\Debug\PointBlank.Battle.pdb
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\bin\Debug\Npgsql.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\bin\Debug\SharpDX.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\bin\Debug\SharpDX.Mathematics.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\bin\Debug\System.ValueTuple.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\bin\Debug\PointBlank.Battle.exe
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\bin\Debug\PointBlank.Battle.pdb
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\bin\Debug\Npgsql.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\bin\Debug\SharpDX.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\bin\Debug\SharpDX.Mathematics.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\bin\Debug\System.ValueTuple.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16+\TEST\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\V3.24 CONVERT TO V3.16\ALLDebug\PointBlank.Battle.exe
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\V3.24 CONVERT TO V3.16\ALLDebug\PointBlank.Battle.pdb
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\V3.24 CONVERT TO V3.16\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\V3.24 CONVERT TO V3.16\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\V3.24 CONVERT TO V3.16\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\V3.24 CONVERT TO V3.16\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\V3.24 CONVERT TO V3.16\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\my server\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\my server\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\my server\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\my server\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\my server\ALLDebug\PointBlank.Battle.exe
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\my server\ALLDebug\PointBlank.Battle.pdb
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\my server\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\XEANA-2\Desktop\SERVER\ALLDebug\PointBlank.Battle.exe
+C:\Users\XEANA-2\Desktop\SERVER\ALLDebug\PointBlank.Battle.pdb
+C:\Users\XEANA-2\Desktop\SERVER\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\XEANA-2\Desktop\SERVER\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\XEANA-2\Desktop\SERVER\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\XEANA-2\Desktop\SERVER\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\XEANA-2\Desktop\SERVER\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\NEW BUILD MY SERVER\ALLDebug\PointBlank.Battle.exe
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\NEW BUILD MY SERVER\ALLDebug\PointBlank.Battle.pdb
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\NEW BUILD MY SERVER\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\NEW BUILD MY SERVER\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\NEW BUILD MY SERVER\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\NEW BUILD MY SERVER\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+D:\XEANADEV PRİVATE CLOUD\SOURCE'S\V3.16 DEVELOPMENT\NEW BUILD MY SERVER\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\coder\Documents\PBV1\server\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\coder\Documents\PBV1\server\ALLDebug\PointBlank.Battle.exe
+C:\Users\coder\Documents\PBV1\server\ALLDebug\PointBlank.Battle.pdb
+C:\Users\coder\Documents\PBV1\server\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\coder\Documents\PBV1\server\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\coder\Documents\PBV1\server\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\coder\Documents\PBV1\server\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\coder\Documents\PBV1\server\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb

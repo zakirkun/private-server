@@ -1,0 +1,218 @@
+20:59:28 [Info] X E A N A D E V  A U T H   S E R V E R
+
+//////███████///██//██////
+/////██////////████████///
+/////██/////////██//██////
+/////██////////████████///
+//////███████///██//██////
+
+ ██╗  ██╗███████╗ █████╗ ███╗   ██╗ █████╗ ██████╗ ███████╗██╗   ██╗
+ ╚██╗██╔╝██╔════╝██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔════╝██║   ██║
+  ╚███╔╝ █████╗  ███████║██╔██╗ ██║███████║██║  ██║█████╗  ██║   ██║
+  ██╔██╗ ██╔══╝  ██╔══██║██║╚██╗██║██╔══██║██║  ██║██╔══╝  ╚██╗ ██╔╝
+ ██╔╝ ██╗███████╗██║  ██║██║ ╚████║██║  ██║██████╔╝███████╗ ╚████╔╝
+ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚══════╝  ╚═══╝
+ Copyright (c)  Gold Games 2018 - 2022 - [Sunucu Versiyonu 1.0.0.0]
+KİMSE GÜÇSÜZ İNSANDAN NEFRET ETMEZ :) 
+All rights reserved: BY XEANADEV!
+20:59:28 [Error] System.IO.DirectoryNotFoundException: 'D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Auth\bin\Debug\Config\Auth.ini' yolunun bir parçası bulunamadı.
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   konum: System.IO.StreamReader..ctor(String path)
+   konum: PointBlank.Core.ConfigFile.LoadStrings() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\ConfigFile.cs içinde: satır 36
+20:59:28 [Warning] Parameter failure: Host
+20:59:28 [Warning] Parameter failure: Name
+20:59:28 [Warning] Parameter failure: User
+20:59:28 [Warning] Parameter failure: Pass
+20:59:28 [Warning] Parameter failure: Port
+20:59:28 [Warning] Parameter failure: ConfigId
+20:59:28 [Warning] Parameter failure: ServerId
+20:59:28 [Warning] Parameter failure: AuthIp
+20:59:28 [Warning] Parameter failure: AuthPort
+20:59:28 [Warning] Parameter failure: SyncPort
+20:59:28 [Warning] Parameter failure: AutoAccounts
+20:59:28 [Warning] Parameter failure: Debug
+20:59:28 [Warning] Parameter failure: Test
+20:59:28 [Warning] Parameter failure: EncodingPage
+20:59:28 [Warning] Parameter failure: MaxChannelPlayers
+20:59:28 [Warning] Parameter failure: Outpost
+20:59:28 [Warning] Parameter failure: LauncherKey
+20:59:28 [Warning] Parameter failure: MinNickSize
+20:59:28 [Warning] Parameter failure: MaxNickSize
+20:59:28 [Warning] Parameter failure: MinTokenSize
+20:59:28 [Warning] Parameter failure: GameLocales
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.Events.EventVisitSyncer.GenerateList() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\Events\EventVisitSyncer.cs içinde: satır 25
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.Events.EventLoginSyncer.GenerateList() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\Events\EventLoginSyncer.cs içinde: satır 24
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.Events.EventMapSyncer.GenerateList() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\Events\EventMapSyncer.cs içinde: satır 23
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.Events.EventPlayTimeSyncer.GenerateList() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\Events\EventPlayTimeSyncer.cs içinde: satır 25
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.Events.EventQuestSyncer.GenerateList() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\Events\EventQuestSyncer.cs içinde: satır 25
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.Events.EventRankUpSyncer.GenerateList() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\Events\EventRankUpSyncer.cs içinde: satır 23
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.Events.EventXmasSyncer.GenerateList() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\Events\EventXmasSyncer.cs içinde: satır 23
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Xml.BasicInventoryXml.Load() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Xml\BasicInventoryXml.cs içinde: satır 16
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Xml.CafeInventoryXml.Load() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Xml\CafeInventoryXml.cs içinde: satır 16
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Xml.ServersXml.Load() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Xml\ServersXml.cs içinde: satır 40
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Auth.Data.Xml.ChannelsXml.Load(Int32 serverId) D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Auth\Data\Xml\ChannelsXml.cs içinde: satır 25
+20:59:28 [Error] File not found: Data/Missions/AssaultCard.mqf
+20:59:28 [Error] File not found: Data/Missions/Dino_Basic.mqf
+20:59:28 [Error] File not found: Data/Missions/Dino_Intensify.mqf
+20:59:28 [Error] File not found: Data/Missions/TutorialCard_Brazil.mqf
+20:59:28 [Error] File not found: Data/Missions/Dino_Tutorial.mqf
+20:59:28 [Error] File not found: Data/Missions/Field_o.mqf
+20:59:28 [Error] File not found: Data/Missions/SpecialCard.mqf
+20:59:28 [Error] File not found: Data/Missions/InfiltrationCard.mqf
+20:59:28 [Error] File not found: Data/Missions/DefconCard.mqf
+20:59:28 [Error] File not found: Data/Missions/Company_o.mqf
+20:59:28 [Error] File not found: Data/Missions/BackUpCard.mqf
+20:59:28 [Error] File not found: Data/Missions/Commissioned_o.mqf
+20:59:28 [Error] File not found: Data/Missions/EventCard.mqf
+20:59:28 [Error] File not found: Data/Maps/Matchs.xml
+20:59:28 [Error] File not found: Data/Maps/Rules.xml
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.ShopManager.Load(Int32 type) D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\ShopManager.cs içinde: satır 32
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.ShopManager.Load(Int32 type) D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\ShopManager.cs içinde: satır 32
+20:59:28 [Error] File not found: Data/Rank/Player.xml
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Xml.RankXml.LoadAwards() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Xml\RankXml.cs içinde: satır 103
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.CouponEffectManager.LoadCouponFlags() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\CouponEffectManager.cs içinde: satır 24
+20:59:28 [Error] File not found: Data//QuickStart.xml
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Managers.ICafeManager.GetList() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Managers\ICafeManager.cs içinde: satır 23
+20:59:28 [Error] System.TypeInitializationException: 'PointBlank.Core.Sql.SqlConnection' tür başlatıcısı özel durum döndürdü. ---> System.ArgumentOutOfRangeException: Invalid port: 0
+Parametre adı: value
+Gerçek değer 0 idi.
+   konum: Npgsql.NpgsqlConnectionStringBuilder.set_Port(Int32 value)
+   konum: PointBlank.Core.Sql.SqlConnection..ctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 18
+   konum: PointBlank.Core.Sql.SqlConnection..cctor() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Sql\SqlConnection.cs içinde: satır 15
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: PointBlank.Core.Sql.SqlConnection.getInstance()
+   konum: PointBlank.Core.Xml.MissionsXml.Load() D:\XEANADEV PRİVATE CLOUD\SOURCE'S\PROJECT GOLD 01.07.2022++ SYSTEM'S\Server - new\PointBlank.Core\Xml\MissionsXml.cs içinde: satır 25
+20:59:28 [Info] Metin şifrelemesi : Türkçe (Windows)
+20:59:28 [Info] Sunucu modu : Test
+20:59:28 [Debug] SUNUCU BAŞLATILDI. (22.12.19 20:59:28)
